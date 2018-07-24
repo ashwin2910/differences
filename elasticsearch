@@ -1,0 +1,14 @@
+Elasticsearch is an open source distributed, RESTful search and analytics engine capable of solving a growing number of use cases. 
+1)Open source search server based on apache lucene.
+2)Written in java
+3)Cross-platform
+4)big focus on scalability
+5)Designed to take data from any source,analyse it and search through it
+6)Communication with the search server is done through a HTTP REST API
+   eg) curl -X<REST Verb><Node>:<Port>/<Index>/<Type>/<ID>
+       curl -X GET http://localhost:9200/person/employee/123
+7)Documents stored in elasticsearch are JSON documents which are Schemeless like NoSQL databases.
+8)Elastic search is opensource and is developed by BV
+9)It is real-time search 
+
+eg) of an use case of elasticsearch:You run an online web store where you allow your customers to search for products that you sell. In this case, you can use Elasticsearch to store your entire product catalog and inventory and provide search and autocomplete suggestions for them. 
